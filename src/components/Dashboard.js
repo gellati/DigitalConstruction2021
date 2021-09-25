@@ -17,6 +17,7 @@ import {
   TOTAL_ROOM_COUNT_MAX,
   initialState,
 } from '../data/constants';
+import { calculateResult } from './../utils/calculator';
 
 const SliderArea = styled.div`
   padding-top: 50px;
@@ -81,24 +82,6 @@ const Dashboard = () => {
   const [showResult, setShowResult] = useState(false);
 
   const [result, setResult] = useState(0);
-
-  const calculateResult = ({
-    inhabitantsSliderValue,
-    floorsSliderValue,
-    totalM2SliderValue,
-    buildingAreasliderValue,
-    balconyPrecentageSliderValue,
-    totalRoomCountSliderValue,
-  }) => {
-    const result =
-      parseInt(inhabitantsSliderValue) +
-      parseInt(floorsSliderValue) +
-      parseInt(totalM2SliderValue) +
-      parseInt(buildingAreasliderValue) +
-      parseInt(balconyPrecentageSliderValue) +
-      parseInt(totalRoomCountSliderValue);
-    return result;
-  };
 
   const submitResult = () => {
     const result = calculateResult({
