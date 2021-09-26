@@ -21,7 +21,7 @@ const Slider = ({ name, min, max, value, onChange }) => {
           type="range"
           min={min}
           max={max}
-          step={0.2}
+          step={1}
           onChange={(e) => onChange(e.target.value)}
           value={value}
         />

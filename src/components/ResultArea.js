@@ -11,7 +11,11 @@ const ResultWrapper = styled.div`
 `;
 
 const ResultArea = ({ result }) => {
-  return <ResultWrapper>Your floor plan is {result}</ResultWrapper>;
+  return (
+    <ResultWrapper>
+      {result[0] && <div>Your floor plan is {result[0].floorplanName}</div>}
+    </ResultWrapper>
+  );
 };
 
 export default ResultArea;

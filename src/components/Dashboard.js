@@ -81,7 +81,7 @@ const Dashboard = () => {
 
   const [showResult, setShowResult] = useState(false);
 
-  const [result, setResult] = useState(0);
+  const [result, setResult] = useState([]);
 
   const submitResult = () => {
     const result = calculateResult({
@@ -91,8 +91,9 @@ const Dashboard = () => {
       buildingAreasliderValue,
       balconyPrecentageSliderValue,
       totalRoomCountSliderValue,
+      setResult,
     });
-    setResult(result);
+    //    setResult(result);
     setShowResult(true);
   };
 
@@ -103,6 +104,7 @@ const Dashboard = () => {
     setBuildingAreaSliderValue(initialBuildingArea);
     setBalconyPrecentageSliderValue(initialBalconyPercentage);
     setTotalRoomCountSliderValue(initialTotalRoomCount);
+    setResult(null);
     setShowResult(false);
   };
 
@@ -160,7 +162,6 @@ const Dashboard = () => {
 
         <SubmitButton onClick={() => submitResult()}>Submit</SubmitButton>
         <ResetButton onClick={() => resetValues()}>Reset</ResetButton>
-
         {showResult && <ResultArea result={result} />}
       </div>
     </div>
