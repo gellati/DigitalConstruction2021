@@ -104,7 +104,7 @@ const Dashboard = () => {
     setBuildingAreaSliderValue(initialBuildingArea);
     setBalconyPrecentageSliderValue(initialBalconyPercentage);
     setTotalRoomCountSliderValue(initialTotalRoomCount);
-    setResult(null);
+    setResult([]);
     setShowResult(false);
   };
 

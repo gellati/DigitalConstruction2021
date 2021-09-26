@@ -33,24 +33,24 @@ export const calculateResult = ({
     if (inhabitantsSliderValueInt > 16) {
       results.push({
         floorplanName: 'floorplan_1_1',
-        floorplanPrice: '11',
-        floorplanCO2: '11',
+        floorplanPrice: '501978',
+        floorplanCO2: '72036',
       });
       results.push({
         floorplanName: 'floorplan_1_2',
-        floorplanPrice: '12',
-        floorplanCO2: '21',
+        floorplanPrice: '516218',
+        floorplanCO2: '74726',
       });
     } else {
       results.push({
         floorplanName: 'floorplan_1_3',
-        floorplanPrice: '13',
-        floorplanCO2: '31',
+        floorplanPrice: '507430',
+        floorplanCO2: '75368',
       });
       results.push({
         floorplanName: 'floorplan_1_4',
-        floorplanPrice: '14',
-        floorplanCO2: '41',
+        floorplanPrice: '481232',
+        floorplanCO2: '74334',
       });
     }
   }
@@ -59,24 +59,24 @@ export const calculateResult = ({
     if (inhabitantsSliderValueInt > 20) {
       results.push({
         floorplanName: 'floorplan_2_1',
-        floorplanPrice: '21',
-        floorplanCO2: '12',
+        floorplanPrice: '663190',
+        floorplanCO2: '94736',
       });
       results.push({
         floorplanName: 'floorplan_2_2',
-        floorplanPrice: '22',
-        floorplanCO2: '22',
+        floorplanPrice: '719674',
+        floorplanCO2: '10700',
       });
     } else {
       results.push({
         floorplanName: 'floorplan_2_3',
-        floorplanPrice: '23',
-        floorplanCO2: '32',
+        floorplanPrice: '663703',
+        floorplanCO2: '97522',
       });
       results.push({
         floorplanName: 'floorplan_2_4',
-        floorplanPrice: '24',
-        floorplanCO2: '42',
+        floorplanPrice: '594426',
+        floorplanCO2: '94638',
       });
     }
   }
@@ -85,24 +85,24 @@ export const calculateResult = ({
     if (inhabitantsSliderValueInt > 20) {
       results.push({
         floorplanName: 'floorplan_3_1',
-        floorplanPrice: '31',
-        floorplanCO2: '13',
+        floorplanPrice: '824402',
+        floorplanCO2: '117436',
       });
       results.push({
         floorplanName: 'floorplan_3_2',
-        floorplanPrice: '32',
-        floorplanCO2: '23',
+        floorplanPrice: '754236',
+        floorplanCO2: '117436',
       });
     } else {
       results.push({
         floorplanName: 'floorplan_3_3',
-        floorplanPrice: '33',
-        floorplanCO2: '33',
+        floorplanPrice: '727467',
+        floorplanCO2: '18275',
       });
       results.push({
         floorplanName: 'floorplan_3_4',
-        floorplanPrice: '34',
-        floorplanCO2: '43',
+        floorplanPrice: '695584',
+        floorplanCO2: '112026',
       });
     }
   }
