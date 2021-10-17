@@ -8,8 +8,13 @@ export const floorplan_1_1_rule = {
       },
       {
         fact: 'totalM2SliderValue',
-        operator: 'lessThanInclusive',
-        value: 423,
+        operator: 'greaterThanInclusive',
+        value: 400,
+      },
+      {
+        fact: 'totalM2SliderValue',
+        operator: 'lessThan',
+        value: 500,
       },
       {
         fact: 'totalRoomCountSliderValue',
@@ -32,18 +37,33 @@ export const floorplan_1_2_rule = {
     all: [
       {
         fact: 'inhabitantsSliderValue',
-        operator: 'lessThanInclusive',
+        operator: 'lessThan',
+        value: 24,
+      },
+      {
+        fact: 'inhabitantsSliderValue',
+        operator: 'greaterThanInclusive',
         value: 18,
       },
       {
         fact: 'totalM2SliderValue',
-        operator: 'lessThanInclusive',
-        value: 423,
+        operator: 'greaterThanInclusive',
+        value: 400,
+      },
+      {
+        fact: 'totalM2SliderValue',
+        operator: 'lessThan',
+        value: 500,
       },
       {
         fact: 'totalRoomCountSliderValue',
-        operator: 'lessThanInclusive',
-        value: 10,
+        operator: 'lessThan',
+        value: 12,
+      },
+      {
+        fact: 'totalRoomCountSliderValue',
+        operator: 'greaterThan',
+        value: 8,
       },
     ],
   },
@@ -65,9 +85,19 @@ export const floorplan_1_3_rule = {
         value: 15,
       },
       {
+        fact: 'inhabitantsSliderValue',
+        operator: 'greaterThan',
+        value: 11,
+      },
+      {
         fact: 'totalM2SliderValue',
-        operator: 'lessThanInclusive',
-        value: 423,
+        operator: 'greaterThanInclusive',
+        value: 400,
+      },
+      {
+        fact: 'totalM2SliderValue',
+        operator: 'lessThan',
+        value: 500,
       },
       {
         fact: 'totalRoomCountSliderValue',
@@ -95,8 +125,13 @@ export const floorplan_1_4_rule = {
       },
       {
         fact: 'totalM2SliderValue',
-        operator: 'lessThanInclusive',
-        value: 423,
+        operator: 'greaterThanInclusive',
+        value: 400,
+      },
+      {
+        fact: 'totalM2SliderValue',
+        operator: 'lessThan',
+        value: 500,
       },
       {
         fact: 'totalRoomCountSliderValue',
@@ -120,18 +155,24 @@ export const floorplan_2_1_rule = {
     all: [
       {
         fact: 'inhabitantsSliderValue',
-        operator: 'lessThanInclusive',
+        operator: 'moreThanInclusive',
         value: 32,
       },
       {
+        fact: 'inhabitantsSliderValue',
+        operator: 'moreThanInclusive',
+        value: 32,
+      },
+
+      {
         fact: 'totalM2SliderValue',
-        operator: 'greaterThan',
-        value: 423,
+        operator: 'greaterThanInclusive',
+        value: 500,
       },
       {
         fact: 'totalM2SliderValue',
-        operator: 'lessThanInclusive',
-        value: 545,
+        operator: 'lessThan',
+        value: 600,
       },
       {
         fact: 'totalRoomCountSliderValue',
@@ -159,13 +200,13 @@ export const floorplan_2_2_rule = {
       },
       {
         fact: 'totalM2SliderValue',
-        operator: 'greaterThan',
-        value: 423,
+        operator: 'greaterThanInclusive',
+        value: 500,
       },
       {
         fact: 'totalM2SliderValue',
-        operator: 'lessThanInclusive',
-        value: 545,
+        operator: 'lessThan',
+        value: 600,
       },
       {
         fact: 'totalRoomCountSliderValue',
@@ -193,13 +234,13 @@ export const floorplan_2_3_rule = {
       },
       {
         fact: 'totalM2SliderValue',
-        operator: 'greaterThan',
-        value: 423,
+        operator: 'greaterThanInclusive',
+        value: 500,
       },
       {
         fact: 'totalM2SliderValue',
-        operator: 'lessThanInclusive',
-        value: 545,
+        operator: 'lessThan',
+        value: 600,
       },
       {
         fact: 'totalRoomCountSliderValue',
@@ -227,13 +268,13 @@ export const floorplan_2_4_rule = {
       },
       {
         fact: 'totalM2SliderValue',
-        operator: 'greaterThan',
-        value: 423,
+        operator: 'greaterThanInclusive',
+        value: 500,
       },
       {
         fact: 'totalM2SliderValue',
-        operator: 'lessThanInclusive',
-        value: 545,
+        operator: 'lessThan',
+        value: 600,
       },
       {
         fact: 'totalRoomCountSliderValue',
@@ -261,8 +302,13 @@ export const floorplan_3_1_rule = {
       },
       {
         fact: 'totalM2SliderValue',
+        operator: 'greaterThanInclusive',
+        value: 600,
+      },
+      {
+        fact: 'totalM2SliderValue',
         operator: 'lessThanInclusive',
-        value: 667,
+        value: 700,
       },
       {
         fact: 'totalRoomCountSliderValue',
@@ -290,8 +336,13 @@ export const floorplan_3_2_rule = {
       },
       {
         fact: 'totalM2SliderValue',
+        operator: 'greaterThanInclusive',
+        value: 600,
+      },
+      {
+        fact: 'totalM2SliderValue',
         operator: 'lessThanInclusive',
-        value: 667,
+        value: 700,
       },
       {
         fact: 'totalRoomCountSliderValue',
@@ -319,8 +370,13 @@ export const floorplan_3_3_rule = {
       },
       {
         fact: 'totalM2SliderValue',
+        operator: 'greaterThanInclusive',
+        value: 600,
+      },
+      {
+        fact: 'totalM2SliderValue',
         operator: 'lessThanInclusive',
-        value: 667,
+        value: 700,
       },
       {
         fact: 'totalRoomCountSliderValue',
@@ -348,8 +404,13 @@ export const floorplan_3_4_rule = {
       },
       {
         fact: 'totalM2SliderValue',
+        operator: 'greaterThanInclusive',
+        value: 600,
+      },
+      {
+        fact: 'totalM2SliderValue',
         operator: 'lessThanInclusive',
-        value: 667,
+        value: 700,
       },
       {
         fact: 'totalRoomCountSliderValue',
